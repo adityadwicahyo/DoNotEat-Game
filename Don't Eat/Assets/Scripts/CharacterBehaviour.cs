@@ -19,8 +19,7 @@ public class CharacterBehaviour : MonoBehaviour {
 		characterSpeed -= Mathf.Abs (fatPoint) * speedPerFat;
 	}
 
-	public void addFat (float amount)
-	{
+	public void addFat (float amount) {
 		fatPoint += amount;
 	}
 }
